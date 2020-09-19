@@ -6,7 +6,7 @@
 /*   By: gtaverne <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/17 18:00:00 by gtaverne          #+#    #+#             */
-/*   Updated: 2020/09/19 16:30:35 by gtaverne         ###   ########.fr       */
+/*   Updated: 2020/09/19 16:38:32 by gtaverne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ void	ft_putstr(char *str)
 
 int		main(int argc, char **argv)
 {
+	(void)argc;
 	ft_putstr(argv[0]);
 	write(1, "\n", 1);
 }
